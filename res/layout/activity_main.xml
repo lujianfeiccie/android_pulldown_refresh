@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+   <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+    </LinearLayout> 
+    <com.example.wbd.PullListView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="2"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+      <View  
+  		     android:layout_width="fill_parent"
+  		     android:layout_height="1px" 
+  		     android:background="#d8d8d8"
+  		  ></View>
+     <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical"
+       >
+    </LinearLayout>
+</LinearLayout>
